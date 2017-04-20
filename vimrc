@@ -10,4 +10,5 @@ set number
 
 syntax on
 " set color scheme 
+set background=dark
 colorscheme darkblue
