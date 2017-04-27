@@ -8,6 +8,8 @@ set expandtab
 " show line numbers
 set number
 
+inoremap jk <esc>
+
 syntax on
 " set color scheme 
 set background=dark
