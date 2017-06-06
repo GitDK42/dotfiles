@@ -71,6 +71,10 @@ set number
 inoremap jk <esc>
 
 syntax on
-" set color scheme 
+"
 set background=dark
+" set color scheme 
 colorscheme darkblue
+" prevent vim color schemes from modifying terminal bg
+hi Normal ctermbg=none 
+highlight NonText ctermbg=none
